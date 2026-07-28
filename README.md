@@ -158,7 +158,7 @@ This project demonstrates advanced frontend development, responsive UI design, r
 ### 📅 FAQ  & Consultation 
 
 | faq | Consultation |
-|--------------
+|------|--------------- |
 | ![](screenshots/09-faqs.png) | ![](screenshots/10-consultation.png) |
 
 
