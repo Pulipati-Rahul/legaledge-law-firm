@@ -1,26 +1,103 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #D4AF37;
+  --color-gold: #D4AF37;
+  --color-gold-hover: #C5A02E;
+  --color-gold-light: #E4C355;
+  --color-gold-dark: #A58420;
+  --color-bg-dark: #0F172A;
+  --color-bg-accent: #111827;
+  --color-bg-card: #1E293B;
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0F172A;
+  --foreground: #FFFFFF;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Outfit", sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0F172A;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border: 2px solid #0F172A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  background-color: #0F172A;
+  color: #FFFFFF;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0F172A;
+  color: #FFFFFF;
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom styles for luxury text selections */
+::selection {
+  background-color: #D4AF37;
+  color: #0F172A;
+}
+
+/* Redesigned Card Panel (Sleek Slate Executive panel) */
+.glass-panel {
+  background: #1E293B;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.3);
+}
+
+.glass-panel-hover:hover {
+  border-color: rgba(212, 175, 55, 0.3);
+  box-shadow: 0 10px 30px -10px rgba(15, 23, 42, 0.5);
+  background: #243048;
+}
+
+/* Sticky Nav Bar with Deep Navy transparency */
+.glass-nav {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Text gold gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFFFFF 0%, #E6C762 50%, #D4AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-metallic {
+  background: linear-gradient(135deg, #FFFFFF 0%, #E6C762 50%, #D4AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subdued gold glow */
+.gold-glow {
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.08);
+}
+
+/* Animation delay helpers */
+.animation-delay-200 {
+  animation-delay: 200ms;
+}
+.animation-delay-500 {
+  animation-delay: 500ms;
 }
