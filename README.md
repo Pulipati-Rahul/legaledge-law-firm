@@ -133,7 +133,7 @@ This project demonstrates advanced frontend development, responsive UI design, r
 
 ### ⚖️ Practice Areas & why us
 
-| Practice Areas | Attorneys |
+| Practice Areas | why us |
 |---------------|-----------|
 | ![](screenshots/03-practices.png) | ![](screenshots/04-why-us.png) |
 
@@ -141,7 +141,7 @@ This project demonstrates advanced frontend development, responsive UI design, r
 
 ### 🏆 team & Case Results 
 
-| Case Results | Testimonials |
+| team | Case Results |
 |--------------|--------------|
 | ![](screenshots/05-team.png) | ![](screenshots/06-results.png) |
 
@@ -149,7 +149,7 @@ This project demonstrates advanced frontend development, responsive UI design, r
 
 ### 📚  Testimonials & Legal Resources
 
-| Legal Resources | FAQ |
+| Testimonials | Resources |
 |-----------------|-----|
 | ![](screenshots/07-testimonials.png) | ![](screenshots/08-resources.png) |
 
@@ -157,7 +157,7 @@ This project demonstrates advanced frontend development, responsive UI design, r
 
 ### 📅 FAQ  & Consultation 
 
-| Consultation 
+| faq | Consultation |
 |--------------
 | ![](screenshots/09-faqs.png) | ![](screenshots/10-consultation.png) |
 
