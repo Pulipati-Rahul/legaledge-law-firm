@@ -171,7 +171,7 @@ This project demonstrates advanced frontend development, responsive UI design, r
 ### 📱 Mobile Preview
 
 <p align="center">
-  <img src="screenshots/11-mobile-preview.png" alt="Mobile Preview" width="300">
+  <img src="screenshots/12-mobile-preview.png" alt="Mobile Preview" width="300">
 </p>
 
 ---
